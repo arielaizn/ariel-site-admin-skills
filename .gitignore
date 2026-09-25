@@ -1,0 +1,10 @@
+# secrets and local state never enter the repo
+.env
+.env.*
+!.env.example
+*.secret
+cookies*.txt
+__pycache__/
+*.pyc
+.DS_Store
+*.csv
